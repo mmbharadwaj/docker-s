@@ -1,0 +1,11 @@
+create myProject directory
+
+place all below files in myProject
+
+also create node_modules folder in myProject
+
+install npm
+npm init
+npm install express --save
+docker build -t hello_world_app .
+sudo docker run -it -p 8080:3000 hello_world_app
